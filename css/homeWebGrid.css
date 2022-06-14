@@ -1,0 +1,54 @@
+html ,body{
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 49px;
+    line-height: 49px;
+    background-color: #000;
+}
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,min-max(100px,1fr));
+}
+
+#szlogo{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url("../images/szlogo.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.projectlogo{
+    display: inline-block;
+}
+.projectimg{
+    width: 70px;
+}
+header, footer{
+    border: 1px solid red;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(560px,1fr));
+
+}
+section{
+    border: 2px solid green;
+}
+#home{
+    background-color: #fff;
+    color: #000;
+}
+
+#project{
+    background-color: #000;
+    color: #fff;
+}
+
+footer{
+    background-color: #707070;
+    color: #fff;
+}

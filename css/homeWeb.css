@@ -1,0 +1,100 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 49px;
+    line-height: 49px;
+    background-color: #000;
+}
+div{
+    border:1px solid blue;
+    box-sizing: border-box;
+}
+#szlogo{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url("../images/szlogo.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    border: 1px solid red;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+#medianote{
+    content: "Mobile";
+}
+.projectlogo{
+    display: inline-block;
+}
+.projectimg{
+    width: 70px;
+}
+#home{
+    min-width: 50%;
+    height:50vh;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+#homeitem{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#project{
+    min-width: 50%;
+    height:50vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+#blog{
+    min-width: 100%;
+    height:50vh;
+    background-color: #707070;
+    color: #fff;
+}
+#szlogocontainer{
+    width: 30%;
+    display: inline-block;
+    flex: 1;
+}
+#hometext{
+    min-width: 70%;
+    display: inline-block;
+    flex: 1;
+}
+#blogtextheader{
+    font-weight: bold;
+    text-align: justify;
+}
+#blogtext{
+    text-align: justify;
+}
+/* *Text header*/
+.textheader{
+    font-size: 49px;
+    line-height: 49px;
+}
+
+.textheader2{
+    font-size: 40px;
+    line-height: 40px;
+}
+.textnormal{
+    font-size: 34px;
+    line-height: 38px;
+}
