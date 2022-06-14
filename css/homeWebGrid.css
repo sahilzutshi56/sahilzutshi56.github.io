@@ -37,6 +37,7 @@ header{
 }
 section{
     border: 2px solid green;
+    height: 100%;
 }
 #home{
     background-color: #fff;
@@ -51,4 +52,6 @@ section{
 footer{
     background-color: #707070;
     color: #fff;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
 }
